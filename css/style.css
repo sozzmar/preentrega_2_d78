@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-size: 20px;
+}
+
+body header {
+    border-bottom:10px solid black;
+    background-color: aliceblue;
+    display: flex;
+    position: fixed; top: 0px;
+    position: sticky;
+    z-index: 1;
+    
+    }
+
+
+ .navbar-brand img {
+     width: 10%;
+}
+
+
+
+main {
+    background-color: blue;
+    border-bottom:10px solid black; ;
+    display: flex;
+}
+
+h1, p {
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 5vw
+        
+}
+
+p {
+    text-align: left;
+    font-size: 2vw;
+    width: 45%;
+   
+}
+.parrafo_principal {
+    display: block;
+}
+
+main section div {
+    display: flex;  justify-content: space-between; flex-wrap: wrap;
+}
+
+ main section img {
+    
+    width: 50%;
+   height: 50%;
+    padding-right: 40px;
+     display: block;
+     
+        max-width: 100%;
+        
+        
+ }
+
+
+
+ 
+ .imagenes_galeria {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+            }
+
+
+            .imagenes_galeria img {
+            
+                width: 31%;
+                height: auto;
+                padding: 5px;
+                                 }
+
+
+
+
+footer {
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+  
+      
+      
+}
+
+footer a img {
+    display: flex;
+    width: 20%;
+    margin: 5px;
+}
+
+footer a {
+       text-decoration: none;}
+
+
