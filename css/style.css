@@ -149,22 +149,18 @@ main section div {
 
 footer {
     background-color: none;
+    right: 0px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     width: 20%;
+ }
 
-  
-      
-      
-}
+
 
 footer a img {
-    display: flex;
+    right: 0px;
     width: 20%;
-    margin: 5px;
-}
+    margin: 5px; }
 
 footer a {
        text-decoration: none;}
