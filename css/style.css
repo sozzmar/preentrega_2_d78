@@ -21,11 +21,15 @@ body header {
 
 }
 
-
-.navbar-brand img {
-    width: 10%;
+.navbar-toggler{
+    position: absolute;
+    right: 0;
 }
 
+.navbar-brand img {
+       width: 15%;
+
+}
 
 
 main {
@@ -161,8 +165,9 @@ main section img {
 
 footer a img {
     right: 0px;
-    width: 3%;
-    margin: 5px; }
+    width: 4%;
+    margin: 5px; 
+}
 
 footer a {
        text-decoration: none;
